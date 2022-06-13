@@ -1,5 +1,7 @@
 #title, .subtitle, .post_title{
-    color: rgb(67, 207, 48);
+    color: rgb(116, 21, 5);
+    
+    
 }
 
 .post_title{
@@ -10,7 +12,7 @@
 }
 
 body{
-    background: rgb(214, 214, 214);
+    background: rgb(232, 226, 226);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     max-width: 900px;
     margin: auto;
@@ -19,6 +21,8 @@ body{
 #title{
 font-size: 35px;
 text-transform: uppercase;
+text-align: end;
+margin-left: 10px;
 }
 
 a{
@@ -49,6 +53,8 @@ text-align: justify;
 .post_image_perfil{
     border: 1px solid rgb(0, 0, 0);
     border-radius: 50%;
+    margin-top: 20px;
+    
 }
 
 .contatos{
@@ -58,4 +64,9 @@ text-align: justify;
 
 .contatos li a{
     color: darkred;
+}
+
+.flex-container{
+    display: flex;
+    align-items: flex-end;
 }
